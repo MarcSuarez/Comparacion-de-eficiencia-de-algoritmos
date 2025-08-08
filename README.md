@@ -53,4 +53,4 @@ Se busca medir el tiempo de ejecución y el uso de memoria de ambas implementaci
 ## 🚀 Conclusión
 - Según los resultados obtenidos, la **iteración** fue más rápida que la recursión, lo cual es consistente con la teoría en términos de tiempo de ejecución.
 - El **uso de memoria** fue prácticamente igual en ambas implementaciones, lo que difiere de lo esperado teóricamente.  
-- Este resultado anómalo destaca la importancia de me
+- Este resultado anómalo destaca la importancia de medir y analizar experimentalmente, ya que las condiciones del entorno, las optimizaciones y las herramientas pueden influir en los datos obtenidos.
