@@ -52,7 +52,7 @@ if __name__ == "__main__":
     plt.ylabel("Tiempo (segundos)")
     plt.legend()
     plt.grid(True)
-    plt.savefig("tiempo.png")
+    plt.savefig("time.png")
     plt.close()
 
     # ---- Gráfica de memoria ----

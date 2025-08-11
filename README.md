@@ -32,18 +32,25 @@ Se busca medir el tiempo de ejecución y el uso de memoria de ambas implementaci
 
 ## 📊 Resumen de hallazgos
 - **Tiempo de ejecución**: en nuestras mediciones, el método iterativo fue más rápido que el recursivo tanto en Python como en C.
-- **Uso de memoria**: en nuestras pruebas, tanto en C como en Python, el uso de memoria fue prácticamente igual para ambas implementaciones.  
-  Teóricamente, se esperaría que la recursiva consuma más memoria por el uso de la pila de llamadas, pero en este caso no se observó diferencia notable. Esto podría deberse a:
+- **Uso de memoria**: en nuestras pruebas, tanto en C como en Python, el uso de memoria fue prácticamente igual para ambas implementaciones.
+
+---
+
+## ✅Tener en cuenta
+-En el programa de C a partir del 65 no va a calcular el valor del factorial, debido a que la variable no puede almacenar enteros con un valor muy alto .
+-El resultado del uso de memoria teóricamente, se esperaría que la recursiva consuma más memoria por el uso de la pila de llamadas, pero en este caso no se observó diferencia notable. Esto podría deberse a:
   - Optimización interna del lenguaje o compilador.
   - Forma en que el sistema operativo gestiona la memoria.
   - Precisión o granularidad de la herramienta de medición utilizada.
+-El programa de python generará imagenes en el directorio para almacenar los resultados, los nombres serán 'memory' para la imagen del uso de memoria y 'time' para la imagen del tiempo que consumen, además, las 2 estaran en formato .png
+-Se debe instalar las librerias para correr el codigo python que estan el archivo requirements.txt, se puede instalar con pip install -r requirements.txt
 
 ---
 
 ## 📈 Comparaciones gráficas
 
 ### Tiempo de ejecución
-![Tiempo de ejecución](pyhton/tiempo.png)
+![Tiempo de ejecución](pyhton/time.png)
 
 ### Uso de memoria
 ![Uso de memoria](pyhton/memory.png)
