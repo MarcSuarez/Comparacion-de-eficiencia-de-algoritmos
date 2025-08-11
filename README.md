@@ -36,14 +36,21 @@ Se busca medir el tiempo de ejecución y el uso de memoria de ambas implementaci
 
 ---
 
-## ✅Tener en cuenta
--En el programa de C a partir del 65 no va a calcular el valor del factorial, debido a que la variable no puede almacenar enteros con un valor muy alto .
--El resultado del uso de memoria teóricamente, se esperaría que la recursiva consuma más memoria por el uso de la pila de llamadas, pero en este caso no se observó diferencia notable. Esto podría deberse a:
+## ✅ Tener en cuenta
+
+- En el programa de **C**, a partir del número 65 no se calculará el valor del factorial, debido a que la variable no puede almacenar enteros con un valor tan alto.
+- En cuanto al uso de memoria, teóricamente se esperaría que la versión recursiva consuma más memoria por el uso de la pila de llamadas, pero en este caso no se observó una diferencia notable. Esto podría deberse a:
   - Optimización interna del lenguaje o compilador.
   - Forma en que el sistema operativo gestiona la memoria.
   - Precisión o granularidad de la herramienta de medición utilizada.
--El programa de python generará imagenes en el directorio para almacenar los resultados, los nombres serán 'memory' para la imagen del uso de memoria y 'time' para la imagen del tiempo que consumen, además, las 2 estaran en formato .png
--Se debe instalar las librerias para correr el codigo python que estan el archivo requirements.txt, se puede instalar con pip install -r requirements.txt
+- El programa de **Python** generará imágenes en el directorio para almacenar los resultados:
+  - `memory.png` → Uso de memoria.
+  - `time.png` → Tiempo de ejecución.
+- Para ejecutar el código en Python, se deben instalar las librerías que están listadas en el archivo `requirements.txt`:
+  
+  ```bash
+  pip install -r requirements.txt
+
 
 ---
 
